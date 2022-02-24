@@ -1,0 +1,26 @@
+{
+  "name": "quadratic-equation",
+  "version": "1.0.0",
+  "description": "quadratic equation solver",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Morikachan/quadratic-equation.git"
+  },
+  "keywords": [],
+  "author": "Morikachan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Morikachan/quadratic-equation/issues"
+  },
+  "homepage": "https://github.com/Morikachan/quadratic-equation#readme",
+  "devDependencies": {
+    "prettier": "2.5.1"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
