@@ -51,20 +51,19 @@ function consoleInput() {
 
     do {
         userInput = readlineSync.question("Input b: ");
+        b = Number(userInput);
         if (isNaN(b)) {
             console.log("Input error. Value must be a number.");
         } else {
-            b = Number(userInput);
             variables.push(b);
         }
     } while (isNaN(b));
-
     do {
         userInput = readlineSync.question("Input c: ");
+        c = Number(userInput);
         if (isNaN(c)) {
             console.log("Input error. Value must be a number.");
         } else {
-            c = Number(userInput);
             variables.push(c);
         }
     } while (isNaN(c));
