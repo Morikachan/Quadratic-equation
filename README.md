@@ -1,5 +1,5 @@
 # Quadratic equation solver
-This is the programme for solving different quadratic equation with usage of JavaScript and NodeJS.
+This is the program for solving different quadratic equation with usage of JavaScript and NodeJS.
 
 ## Installation
 Firstly, let's start from repository.
@@ -19,7 +19,17 @@ $ npm install
 
 ## Usage
 
-This programme has two modes: Interactive and Non-Interactive
+This program has two modes: 
+
+<details>
+  <summary>Interactive</summary>
+      <p>Input numbers from console.</p>
+</details>
+
+<details>
+<summary>Non-Interactive</summary>
+<p>Numbers are read from txt file.</p>
+</details>
 
 ### Interective mode
 
@@ -31,6 +41,14 @@ $ npm start
 
 ```
 $ npm start 'file_name'.txt
+```
+
+#### Recomendation for Non-Interactive mod
+
+For correct work of program, write your numbers in the file in this pattern: number'*space*'number'*space*'number
+
+```
+72 9 345
 ```
 
 ## Example of working
@@ -50,10 +68,9 @@ Input b: 6
 Input c: 2
 
 Equation is: 4x^2 + 6x + 2
-There's two roots:
+There're two roots:
 x1 = -0.5
 x2 = -1
-
 ```
 
 ### Non-Interactive
@@ -66,9 +83,8 @@ $ npm start testN.txt
 
 Non-interactive mode on.
 
-
 Equation is: 4x^2 + 6x + 2
-There's two roots:
+There're two roots:
 x1 = -0.5
 x2 = -1
 ```
